@@ -1,5 +1,5 @@
-import contactService from "../service/contact-service.js";
-import {logger} from "../application/logging.js";
+import contactService from "../service/contact-service.cjs";
+import {logger} from "../application/logging.cjs";
 
 const create = async (req, res, next) => {
     try {

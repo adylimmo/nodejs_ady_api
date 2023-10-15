@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "test": "jest -i",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate && npm install bcryptjs"
   },
   "jest": {
     "transform": {

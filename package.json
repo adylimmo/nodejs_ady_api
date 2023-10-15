@@ -13,7 +13,7 @@
   },
   "author": "Eko Kurniawan Khannedy",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "@prisma/client": "^4.15.0",
     "bcrypt": "^5.1.0",
